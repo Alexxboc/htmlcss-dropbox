@@ -89,6 +89,13 @@ body {
     border: 1px solid black;
 }
 
+.col_20 {
+    width: 20%;
+    background-color: yellow;
+    border: 1px solid black;
+    height:100%;
+}
+
 /* Header */
 
 .debugs>header .col_50 {
@@ -187,9 +194,26 @@ body {
     background-color: lightcoral;
 }
 
-
-
-
-
+.debugs>main .container_faqs {
+    margin: 50px 0;
+}
 
 /* Footer */
+
+.debugs>footer .container.footer {
+    height: 500px;
+    background-color: green;
+}
+
+.debugs>footer .container_lg {
+    height: 300px;
+}
+
+.debugs>footer .container_menu.footer {
+    height: 100%;
+}
+
+.debugs>footer .col_100 {
+    background-color: red;
+    height: 200px;
+}
