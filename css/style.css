@@ -171,7 +171,20 @@ body {
     background-color: #B4D0E7;
     height: 50%;
     border: 1px solid black;
-    
+}
+
+.debugs>main .container_sm.free_trial {
+    height: 100%;
+}
+
+.debugs>main .container_sm .col_50 {
+    height:100%;
+    background-color: red;
+}
+
+.debugs>main .container_sm.faqs {
+    height: 400px;
+    background-color: lightcoral;
 }
 
 
