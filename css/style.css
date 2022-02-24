@@ -19,19 +19,22 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
-.container_lightblue{
+.container_lightblue {
     background-color: var(--bg_lightblue);
-    height: 600px;
+    height: 500px;
 }
 
 .container_lg {
-    width: 1200px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .container_sm {
-    width: 950px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .clearfix::after {
@@ -51,8 +54,21 @@ body {
     width:70%;
 }
 
+.col_55 {
+    width: 55%;
+}
+
 .col_50 {
     width:50%;
+}
+
+.col_45 {
+    width:45%;
+}
+
+.col_33 {
+    width: 33%;
+    margin: 0 0.1%;
 }
 
 .col_30 {
@@ -61,20 +77,66 @@ body {
 
 /* Header */
 
-.debugs .col_50.float_left {
+.debugs>header .col_50.float_left {
     height:50px
 
 }
 
-.debugs .col_50.left {
+.debugs>header .col_50.left {
     background-color: cornflowerblue;
 }
 
-.debugs .col_50.right {
+.debugs>header .col_50.right {
     background-color: blue;
 }
 
 
 /* Main */
+
+.debugs>main .container_sm.row_price {
+    margin-top: 100px;
+}
+
+
+.debugs>main .col_100 {
+    background-color: pink;
+    height: 200px;
+}
+
+.debugs>main .col_30 {
+    background-color: plum;
+    height: 350px;
+}
+
+.debugs>main .col_70 {
+    background-color: palevioletred;
+    height: 350px;
+}
+
+.debugs>main .price {
+    margin-bottom: 50px;
+}
+
+.debugs>main .col_33{
+    background-color: #61082B;
+    height: 500px;
+}
+
+.debugs>main .container_sm.row_partner {
+    margin-top: 100px;
+}
+
+.debugs>main .col_55 {
+    background-color: aqua;
+    height: 300px;
+}
+
+.debugs>main .col_45 {
+    background-color: aquamarine;
+    height: 300px;
+}
+
+
+
 
 /* Footer */
