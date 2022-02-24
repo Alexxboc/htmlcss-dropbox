@@ -1,0 +1,26 @@
+/* Variables */
+
+:root {
+--color-dark: #000000;
+--primary-color: #0061FF;
+--lighter-dark: #0D0D0D;
+--color-bordeuax: #61082B;
+--bg_lightblue: #B4D0E7;
+
+}
+
+/* Common rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_lg {
+    width: 1200px;
+}
+
+.container_sm {
+    width: 950px;
+}
