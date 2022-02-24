@@ -17,6 +17,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_lightblue{
+    background-color: var(--bg_lightblue);
+    height: 600px;
+}
+
 .container_lg {
     width: 1200px;
 }
@@ -24,3 +33,48 @@
 .container_sm {
     width: 950px;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float_left {
+    float:left;
+}
+
+.col_100 {
+    width: 100%;
+}
+.col_70 {
+    width:70%;
+}
+
+.col_50 {
+    width:50%;
+}
+
+.col_30 {
+    width:30%;
+}
+
+/* Header */
+
+.debugs .col_50.float_left {
+    height:50px
+
+}
+
+.debugs .col_50.left {
+    background-color: cornflowerblue;
+}
+
+.debugs .col_50.right {
+    background-color: blue;
+}
+
+
+/* Main */
+
+/* Footer */
