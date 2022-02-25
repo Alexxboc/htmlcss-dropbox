@@ -6,7 +6,7 @@
 --lighter-dark: #0D0D0D;
 --color-bordeuax: #61082B;
 --bg_lightblue: #B4D0E7;
---color-lightgray: #637381;
+--color-lightgray: #D0D0D3;
 
 }
 
@@ -74,6 +74,10 @@ img {
 .container_sm {
     width: 75%;
     margin: 0 auto;
+}
+
+.unstyled {
+    list-style: none;
 }
 
 /* Header */
@@ -162,10 +166,58 @@ input {
     font-size: 12px;
 }
 
-.planes .row {
+.plans .row {
     padding-top: 20px;
 }
 
-.planes .col_33 {
-    border: 1px solid var(--color-lightgray)
+.plans .col_33 {
+    border: 1px solid var(--color-lightgray);
+    margin: auto;
+}
+
+.plan_title {
+    text-align: center;
+    border-bottom: 1px solid var(--color-lightgray);
+    padding: 5px 0;
+}
+
+.single_plan_container {
+    padding: 30px 22px 150px 22px;
+}
+
+.single_plan_container> div {
+    padding-bottom: 40px;
+}
+
+.single_plan_price> h3,h5,div {
+    padding-bottom: 10px;
+}
+
+.user_info>div {
+    padding-bottom: 20px;
+}
+
+.call_to_action>.btn_bg_blue{
+    margin-bottom: 30px;
+}
+
+.click>div,a {
+    display: inline-block;
+}
+
+.list.plan>h4 {
+    padding-bottom: 20px;
+}
+
+.list.plan li {
+    padding-bottom: 30px;
+}
+
+.plans .list i {
+    color: var(--primary-color);
+}
+
+.month {
+    font-size: 13px;
+    
 }
