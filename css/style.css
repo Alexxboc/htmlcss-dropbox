@@ -19,7 +19,59 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
-    
+}
+
+/* Utility */
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+div[class^="col_"] {
+    float: left;
+}
+
+.col_50 {
+    width:50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn_bg_blue {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 4px 16px;
+}
+
+/* Header */
+
+.menu_header,.logo_header,.btn.bg_blue {
+    display: inline-block;
+}
+
+header .menu_header a{
+    text-decoration: none;
+    color: var(--lighter-dark);
+}
+
+.header_nav .col_50 {
+    padding: 20px;
+}
+
+.logo_header img {
+    vertical-align: sub;
+}
+
+.menu_header a {
+    padding: 20px;
+}
+
+.col_50.right {
+    text-align: right;
 }
 
