@@ -6,6 +6,7 @@
 --lighter-dark: #0D0D0D;
 --color-bordeuax: #61082B;
 --bg_lightblue: #B4D0E7;
+--color-lightgray: #637381;
 
 }
 
@@ -34,6 +35,10 @@ div[class^="col_"] {
     float: left;
 }
 
+.col_33 {
+    width: 33,33%
+}
+
 .col_35 {
     width: 35%;
 }
@@ -44,6 +49,10 @@ div[class^="col_"] {
 
 .col_65 {
     width: 65%;
+}
+
+.col_100 {
+    width: 100%;
 }
 
 img {
@@ -59,6 +68,11 @@ img {
 
 .container_lg {
     width:85%;
+    margin: 0 auto;
+}
+
+.container_sm {
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -90,6 +104,8 @@ header .menu_header a{
 }
 
 /* Main */
+
+/* Section Jumbotron */
 .jumbotron {
     background-color: var(--bg_lightblue);
     height: 1050px;
@@ -120,6 +136,36 @@ header .menu_header a{
     padding-top: 30px;
 }
 
-.jumbotron .jumbo_img {
+/* Section planes */
 
+.planes {
+    padding-top: 250px;
+}
+
+.radio_btn {
+    padding-top: 30px;
+}
+
+.radio_btn {
+    display: inline-block;
+}
+
+.radio_btn.left {
+    padding-left: 20px;
+}
+
+input {
+    vertical-align: middle;
+}
+
+.radio_btn {
+    font-size: 12px;
+}
+
+.planes .row {
+    padding-top: 20px;
+}
+
+.planes .col_33 {
+    border: 1px solid var(--color-lightgray)
 }
