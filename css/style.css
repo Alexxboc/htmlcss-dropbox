@@ -7,6 +7,7 @@
 --color-bordeuax: #61082B;
 --bg_lightblue: #B4D0E7;
 --color-lightgray: #D0D0D3;
+--month-color: #71808C;
 
 }
 
@@ -36,7 +37,7 @@ div[class^="col_"] {
 }
 
 .col_33 {
-    width: 33,33%
+    width: 33.33%
 }
 
 .col_35 {
@@ -172,7 +173,6 @@ input {
 
 .plans .col_33 {
     border: 1px solid var(--color-lightgray);
-    margin: auto;
 }
 
 .plan_title {
@@ -219,5 +219,20 @@ input {
 
 .month {
     font-size: 13px;
-    
+    color: var(--month-color);
+
+}
+
+.plans .btn_bg_blue {
+    display: block;
+    text-align: center;
+}
+
+.plans .col_33 {
+    width: 28%;
+    margin-right: 1.99%;
+}
+
+.plans .col_100_plans {
+    border: 1px solid var(--color-lightgray);
 }
