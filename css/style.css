@@ -48,8 +48,16 @@ div[class^="col_"] {
     width: 35%;
 }
 
+.col_45 {
+    width: 45%;
+}
+
 .col_50 {
     width:50%;
+}
+
+.col_55 {
+    width: 50%;
 }
 
 .col_65 {
@@ -72,6 +80,14 @@ img {
     text-decoration: none;
     color: white;
     background-color: var(--primary-color);
+    padding: 4px 16px;
+}
+
+.btn_bg_white {
+    text-decoration: none;
+    color: var(--color-dark);
+    background-color: white;
+    border: 1px solid black;
     padding: 4px 16px;
 }
 
@@ -151,8 +167,12 @@ header .menu_header a{
 
 /* Section planes */
 
-.planes {
-    padding-top: 250px;
+.plans {
+    margin-top: 200px;
+}
+
+.plans .container_sm>h2 {
+    font-size: 40px;
 }
 
 .radio_btn {
@@ -269,5 +289,27 @@ input {
     margin-top: 50px;
 }
 
+/* Partener */
 
+.partner {
+    margin-top: 150px;
+}
 
+.col_45 {
+    padding-top: 20px;
+}
+
+.partner .col_45 {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.partner .col_45>h3 {
+    font-size: 30px;
+}
+
+.partner .col_45>p {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
