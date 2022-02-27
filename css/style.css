@@ -8,6 +8,15 @@
 --bg_lightblue: #B4D0E7;
 --color-lightgray: #D0D0D3;
 --month-color: #71808C;
+--bg-dark-blue: #0D2481;
+--bg-blue: #2186BFC7;
+--bg-green: #A2D39B;
+--bg-light-green: #D0E9CD;
+--bg-dark-red: #D5001F;
+--bg-light-gray: #F5F5F5;
+--bg-red: #FF1C1C;
+--bg-yellow: #FFD830;
+--color-line-gray: #DEDEE0;
 
 }
 
@@ -40,6 +49,10 @@ div[class^="col_"] {
     width: 20%;
 }
 
+.col_30 {
+    width: 30%;
+}
+
 .col_33 {
     width: 28%;
 }
@@ -51,6 +64,10 @@ div[class^="col_"] {
 
 .col_35 {
     width: 35%;
+}
+
+.col_40 {
+    width: 40%;
 }
 
 .col_45 {
@@ -118,6 +135,10 @@ img {
     color: var(--primary-color);
 }
 
+.font_12px {
+    font-size: 12px;
+}
+
 /* Header */
 
 .menu_header,.logo_header,.btn_header {
@@ -144,6 +165,7 @@ header .menu_header a{
 .col_50.right {
     text-align: right;
 }
+
 
 /* Main */
 
@@ -227,7 +249,7 @@ input {
     padding-bottom: 40px;
 }
 
-.single_plan_price> h3,h5,div {
+.single_plan_price h3,h5,.month {
     padding-bottom: 10px;
 }
 
@@ -341,6 +363,91 @@ input {
 .learn_more a {
     margin: 35px 0;
 }
+
+/* Section Teams */
+
+.logo_box {
+    height: 284.55px;
+    position: relative;
+}
+.teams .col_50 img {
+    filter: invert();
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.designit_img img {
+    height: 50px;
+}
+
+
+
+.teams .col_40 {
+    background-color: var(--bg-light-gray);
+    height: 569.09px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.col_40 p{
+    margin: 50px 0;
+}
+
+.designit {
+    background-color: var(--bg-green);
+    border: 10px solid var(--bg-light-green);
+}
+
+.asu {
+    background-color: var(--color-bordeuax)
+}
+
+.florida {
+    background-color: var(--bg-blue);
+}
+
+.topps {
+    background-color: var(--bg-red);
+}
+
+.world_bicycle {
+    background-color: var(--bg-dark-red);
+}
+
+.hearst_corp {
+    background-color: var(--bg_lightblue);
+}
+
+.lonley_planet {
+    background-color: var(--bg-dark-blue);
+}
+
+.clear_channel {
+    background-color: var(--bg-yellow);
+}
+
+.line {
+    border-bottom: 1px solid var(--color-line-gray);
+    width: 10%;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
