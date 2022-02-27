@@ -41,7 +41,12 @@ div[class^="col_"] {
 }
 
 .col_33 {
-    width: 33.33%
+    width: 28%;
+}
+
+.col_33.middle {
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .col_35 {
@@ -103,6 +108,14 @@ img {
 
 .unstyled {
     list-style: none;
+}
+
+.title_40px {
+    font-size: 40px;
+}
+
+.primary_color {
+    color: var(--primary-color);
 }
 
 /* Header */
@@ -169,10 +182,6 @@ header .menu_header a{
 
 .plans {
     margin-top: 200px;
-}
-
-.plans .container_sm>h2 {
-    font-size: 40px;
 }
 
 .radio_btn {
@@ -242,7 +251,7 @@ input {
     padding-bottom: 30px;
 }
 
-.plans .list i,.buy_now{
+.plans .list i{
     color: var(--primary-color);
 }
 
@@ -255,15 +264,6 @@ input {
 .plans .btn_bg_blue {
     display: block;
     text-align: center;
-}
-
-.plans .col_33 {
-    width: 28%;
-}
-
-.col_33.middle {
-    margin-left: 8%;
-    margin-right: 8%;
 }
 
 .col_80 {
@@ -289,7 +289,7 @@ input {
     margin-top: 50px;
 }
 
-/* Partener */
+/* Section Partener */
 
 .partner {
     margin-top: 150px;
@@ -313,3 +313,34 @@ input {
     padding-bottom: 15px;
     line-height: 30px;
 }
+
+/* Section operations */
+
+.operations {
+    margin-top: 60px;
+}
+
+.operations h2 {
+    margin-bottom: 50px;
+}
+
+.operations h3 {
+    margin-bottom: 20px;
+}
+
+.operations .col_33 {
+    margin-bottom: 100px;
+}
+
+/* Section learn more */
+
+.learn_more {
+    margin-top: 100px;
+}
+
+.learn_more a {
+    margin: 35px 0;
+}
+
+
+
