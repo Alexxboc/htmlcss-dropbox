@@ -82,6 +82,11 @@ div[class^="col_"] {
     width:50%;
 }
 
+.right {
+    text-align: right;
+}
+
+
 .col_55 {
     width: 50%;
 }
@@ -176,9 +181,6 @@ header .menu_header a{
     padding: 20px;
 }
 
-.col_50.right {
-    text-align: right;
-}
 
 
 /* Main */
@@ -451,6 +453,44 @@ input {
 .free_trial h2 {
     color: var(--color-bordeuax);
 }
+
+.free_trial a {
+    border: none;
+    padding: 5px 50px;
+}
+
+.free_trial .col_50 {
+    padding-top: 150px;
+}
+
+.free_trial .col_50.left {
+    padding-left: 150px;
+}
+
+.free_trial .col_50.right {
+    padding-right: 150px;
+}
+
+/* Section faqs */
+
+.faqs {
+    margin-top: 100px;
+}
+
+.faqs h3 {
+    font-size: 25px;
+    border-bottom: 1px solid var(--color-lightgray);
+    padding-bottom: 40px;
+}
+
+.row.question_line {
+    border-bottom: 1px solid var(--color-lightgray); 
+    padding-bottom: 30px;
+}
+
+
+
+
 
 
 
