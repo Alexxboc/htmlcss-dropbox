@@ -534,6 +534,25 @@ input {
 .faqs .col_20 {
     padding-right: 30px;
 }
+
+.panel p {
+    padding-top: 20px;
+    color: var(--primary-color);
+}
+
+.accordion {
+    cursor: pointer;
+}
+.panel {
+    visibility: hidden;
+}
+
+.question:hover .panel {
+    visibility: visible;
+}
+
+
+
 /* Footer */
 
 #site_footer {
