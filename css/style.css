@@ -193,7 +193,9 @@ header .menu_header a{
 
 .sub_menu li {
     padding: 10px 20px;
-    border-bottom: 1px solid var(--primary-color)
+    border-bottom: 1px solid var(--primary-color);
+    color: black;
+    text-align: center;
 }
 
 .sub_menu li:hover {
