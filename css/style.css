@@ -488,7 +488,53 @@ input {
     padding: 30px 0;
 }
 
+.faqs .col_20 {
+    padding-right: 30px;
+}
+/* Footer */
 
+#site_footer {
+    background-color: black;
+    height: 450px;
+}
+
+footer .row {
+    padding-top: 80px;
+    /* padding-left: 70px; */
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footer li {
+    color: white;
+}
+
+
+
+footer h4 {
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer .line {
+    width: 100px;
+    padding-top: 100px;
+}
+
+.language {
+    color: var(--month-color);
+    font-size: 10px;
+    padding-top: 40px;
+}
+
+footer .container_lg {
+    padding-left: 70px;
+}
 
 
 
