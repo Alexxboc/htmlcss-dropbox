@@ -45,6 +45,10 @@ div[class^="col_"] {
     float: left;
 }
 
+.bg_lightblue {
+    background-color: var(--bg_lightblue);
+}
+
 .col_20 {
     width: 20%;
 }
@@ -80,6 +84,10 @@ div[class^="col_"] {
 
 .col_55 {
     width: 50%;
+}
+
+.col_60 {
+    width: 60%;
 }
 
 .col_65 {
@@ -139,6 +147,12 @@ img {
     font-size: 12px;
 }
 
+.line {
+    border-bottom: 1px solid var(--color-line-gray);
+    width: 10%;
+    padding-top: 40px;
+}
+
 /* Header */
 
 .menu_header,.logo_header,.btn_header {
@@ -171,7 +185,6 @@ header .menu_header a{
 
 /* Section Jumbotron */
 .jumbotron {
-    background-color: var(--bg_lightblue);
     height: 1050px;
 }
 
@@ -429,13 +442,15 @@ input {
     background-color: var(--bg-yellow);
 }
 
-.line {
-    border-bottom: 1px solid var(--color-line-gray);
-    width: 10%;
-    padding-top: 40px;
+/* Section free trial */
+
+.free_trial {
+    height: 400px;
 }
 
-
+.free_trial h2 {
+    color: var(--color-bordeuax);
+}
 
 
 
