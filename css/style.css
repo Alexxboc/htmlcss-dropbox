@@ -173,10 +173,41 @@ header .menu_header a{
     vertical-align: sub;
 }
 
-.menu_header a {
+.menu_header>a {
     padding: 20px;
 }
 
+.relative {
+    position: relative;
+}
+
+.sub_menu {
+    position: absolute;
+    top: 60px;
+    right:0;
+    border: 1px solid var(--primary-color);
+    border-bottom: none;
+    background-color: rgba(255,255,255, 0.9);
+    visibility: hidden;
+}
+
+.sub_menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--primary-color)
+}
+
+.sub_menu li:hover {
+    color: var(--primary-color);
+}
+
+.menu_header a:hover{
+    color: var(--primary-color);
+}
+
+.menu_header .has_children:hover .sub_menu {
+    visibility: visible;
+    
+}
 
 
 /* Main */
@@ -214,6 +245,10 @@ header .menu_header a{
 .arrow_down a {
     text-decoration: none;
     color: black;
+}
+
+.has_children:hover {
+    color: var(--primary-color);
 }
 
 /* Section planes */
