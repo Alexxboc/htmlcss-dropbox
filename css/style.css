@@ -140,21 +140,17 @@ img {
     list-style: none;
 }
 
-.title_40px {
-    font-size: 40px;
-}
-
 .primary_color {
     color: var(--primary-color);
 }
 
-.font_12px {
-    font-size: 12px;
+.font_43px {
+    font-size: 43px;
 }
 
 .line {
     border-bottom: 1px solid var(--color-line-gray);
-    width: 10%;
+    width: 60px;
     padding-top: 40px;
 }
 
@@ -191,7 +187,7 @@ header .menu_header a{
 }
 
 .jumbotron h1 {
-    font-size: 95px;
+    font-size: 77px;
     padding-top: 80px;
     padding-bottom: 40px;
     padding-right: 500px;
@@ -213,6 +209,11 @@ header .menu_header a{
 
 .jumbotron .btn_jumbo {
     padding-top: 30px;
+}
+
+.arrow_down a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Section planes */
@@ -253,7 +254,6 @@ input {
     text-align: center;
     border-bottom: 1px solid var(--color-lightgray);
     padding: 5px 0;
-    font-size: 13px;
 }
 
 .single_plan_container {
@@ -269,6 +269,7 @@ input {
 }
 
 .user_info>div {
+    font-size: 14px;
     padding-bottom: 20px;
 }
 
@@ -308,13 +309,18 @@ input {
     padding-top: 20px;
 }
 
-.col_80> h5 {
+.col_100_plans h3 {
+    font-size: 27px;
+}
+
+.col_100_plans h5 {
     padding-top: 10px;
+    font-size: 16px;
 }
 
 .col_80>p {
     padding-top: 20px;
-    font-size: 12px;
+    padding-bottom: 30px;
 }
 
 .col_20>.btn_col_20 {
@@ -478,7 +484,7 @@ input {
 }
 
 .faqs h3 {
-    font-size: 25px;
+    font-size: 32px;
     border-bottom: 1px solid var(--color-lightgray);
     padding-bottom: 40px;
 }
@@ -500,15 +506,16 @@ input {
 
 footer .row {
     padding-top: 80px;
-    /* padding-left: 70px; */
 }
 
-.footer h4 {
+footer h4 {
     color: white;
+    font-size: 20px;
 }
 
-.footer li {
+footer li {
     color: white;
+    font-size: 15px;
 }
 
 
