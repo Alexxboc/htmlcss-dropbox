@@ -30,7 +30,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    min-width: 100%;
+    min-width: 1440px;
 }
 
 /* Utility */
@@ -216,15 +216,12 @@ header .menu_header a{
 
 /* Section Jumbotron */
 .jumbotron {
-    height: 1050px;
+    height: 1000px;
 }
 
 .jumbotron h1 {
     font-size: 77px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    padding-right: 500px;
-
+    padding: 80px 500px 40px 0;
 }
 
 .jumbotron .cancel {
@@ -232,7 +229,8 @@ header .menu_header a{
 }
 
 .jumbotron p {
-    padding-right: 350px;
+    margin-right: 350px;
+    line-height: 25px;
 }
 
 .arrow_down {
@@ -547,7 +545,7 @@ input {
     visibility: hidden;
 }
 
-.question:hover .panel {
+.question_line:hover .panel {
     visibility: visible;
 }
 
@@ -591,7 +589,7 @@ footer .line {
 
 .language {
     color: var(--month-color);
-    font-size: 10px;
+    font-size: 13px;
     padding-top: 40px;
 }
 
